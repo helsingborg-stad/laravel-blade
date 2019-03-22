@@ -24,27 +24,8 @@ The package can be installed via Composer by requiring the "helsingborg-stad/lar
 }
 ```
 
-### Installation (Blade Laravel 5.1) - Released
-The package can be installed via Composer by requiring the "helsingborg-stad/laravel-blade": "3.*" package in your project's composer.json.
-
-```json
-{
-	"require": {
-	    "helsingborg-stad/laravel-blade": "3.*"
-	}
-}
-```
-
-### Installation (Blade Laravel 4)
-The package can be installed via Composer by requiring the "helsingborg-stad/laravel-blade": "2.*" package in your project's composer.json.
-
-```json
-{
-	"require": {
-	    "helsingborg-stad/laravel-blade": "2.*"
-	}
-}
-```
+### Installation (older versions)
+Please use the origin package for older version. Package can be found here: https://github.com/PhiloNL/Laravel-Blade 
 
 ### Usage
 
