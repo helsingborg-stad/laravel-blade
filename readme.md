@@ -1,21 +1,47 @@
-### Installation (Blade Laravel 5.1)
-The package can be installed via Composer by requiring the "philo/laravel-blade": "3.*" package in your project's composer.json.
+# Laravel Blade Standalone Package
+This is a fork of the fantastic work by Philo Hermans. It's purpose is to provide with an up to date version of laravel blade package as a standalone version. From version 5.5 and forward the versioning system will mimic the version of the native versioning of laravel. To get version 5.8 of laravel, simple request it here and you will get that. No more figuring out what version that represents what in laravel (patches will not follow this).
+
+
+### Installation (Blade Laravel 5.8) - Not yet released
+The package can be installed via Composer by requiring the "helsingborg-stad/laravel-blade": "5.8" package in your project's composer.json. 
 
 ```json
 {
 	"require": {
-	    "philo/laravel-blade": "3.*"
+	    "helsingborg-stad/laravel-blade": "5.8"
+	}
+}
+```
+
+### Installation (Blade Laravel 5.5) - Not yet released
+The package can be installed via Composer by requiring the "helsingborg-stad/laravel-blade": "5.5" package in your project's composer.json.
+
+```json
+{
+	"require": {
+	    "helsingborg-stad/laravel-blade": "5.5"
+	}
+}
+```
+
+### Installation (Blade Laravel 5.1) - Released
+The package can be installed via Composer by requiring the "helsingborg-stad/laravel-blade": "3.*" package in your project's composer.json.
+
+```json
+{
+	"require": {
+	    "helsingborg-stad/laravel-blade": "3.*"
 	}
 }
 ```
 
 ### Installation (Blade Laravel 4)
-The package can be installed via Composer by requiring the "philo/laravel-blade": "2.*" package in your project's composer.json.
+The package can be installed via Composer by requiring the "helsingborg-stad/laravel-blade": "2.*" package in your project's composer.json.
 
 ```json
 {
 	"require": {
-	    "philo/laravel-blade": "2.*"
+	    "helsingborg-stad/laravel-blade": "2.*"
 	}
 }
 ```
@@ -39,7 +65,7 @@ The package can be installed via Composer by requiring the "philo/laravel-blade"
 
 require 'vendor/autoload.php';
 
-use Philo\Blade\Blade;
+use HelsingborgStad\Blade\Blade;
 
 $views = __DIR__ . '/views';
 $cache = __DIR__ . '/cache';
